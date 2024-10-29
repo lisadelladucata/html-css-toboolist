@@ -16,3 +16,27 @@ body{
 header{
     background-color: #ffffff;
 }
+
+main{
+    width: 900px;
+    height: 900px;
+    background-color: #ffffff;
+    margin: 40px auto;
+    padding: 15px 25px;
+}
+
+#task{
+    color: #ffffff;
+    background-color:#14AAF5 ;
+    border-radius: 5px;
+    border: #14AAF5;
+    padding: 10px 6px;
+}
+
+#section{
+    color: #C4CBD0;
+    background-color: #ffffff;
+    border: 2px solid #C4CBD0;
+    border-radius: 5px;
+    padding: 10px 6px;
+}
