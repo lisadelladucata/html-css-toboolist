@@ -1,3 +1,7 @@
+/*--------------------
+     General
+---------------------*/
+
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -8,9 +12,15 @@ body{
     background-color:#F6F8F9;
 }
 
-.logo{
-    display: inline-block;
-    vertical-align: middle;
+
+h3{
+    padding-top: 20px;
+    color: #434851 ;
+}
+
+li{
+    list-style: none;
+    padding: 5px;
 }
 
 header{
@@ -22,9 +32,26 @@ main{
     height: 900px;
     background-color: #ffffff;
     margin: 40px auto;
-    padding: 15px 25px;
+    padding: 25px 35px;
 }
+/*----------------------------
+         /general
+------------------------------ */
 
+/*----------------------------
+        header
+------------------------------*/
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+/*-----------------------------
+        /header
+-------------------------------*/
+
+/*-----------------------------
+         main
+-------------------------------*/
 #task{
     color: #ffffff;
     background-color:#14AAF5 ;
@@ -39,4 +66,61 @@ main{
     border: 2px solid #C4CBD0;
     border-radius: 5px;
     padding: 10px 6px;
+}
+
+.sezioni{
+    width: 40px;
+    height: 8px;
+    border-radius: 10px;
+    padding: 6px 6px;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+#viola{
+    background-color: #ab5de6;
+}
+
+#verde{
+    background-color: #2CC6AB ;
+}
+
+#fucsia{
+    background-color: #EC4A9D ;
+}
+
+#lime{
+    background-color: #A3D116;
+}
+
+#arancione{
+    background-color: #FF9B00;
+}
+
+#editorial{
+    background-color: #14AAF5;
+}
+
+#blu{
+    background-color: #14AAF5;
+}
+
+#blue{
+    background-color: #14AAF5;
+}
+
+.check{
+    width: 35px;
+    height: 40px;
+    border: 2px solid green ;
+    border-radius: 100%;
+    color: green;
+}
+
+.cross{
+    width: 35px;
+    height: 40px;
+    border: 2px solid red ;
+    border-radius: 100%;
+    color: red;
 }
