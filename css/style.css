@@ -29,8 +29,7 @@ header{
 }
 
 main{
-    width: 900px;
-    height: 570px;
+    max-width: 900px;
     background-color: #ffffff;
     margin: 40px auto;
     padding: 25px 35px;
@@ -69,11 +68,11 @@ main{
     padding: 10px 6px;
 }
 
-#bottoni{
+#btn{
     padding-bottom: 20px;
 }
 
-.sezioni{
+.sections{
     width: 40px;
     height: 8px;
     border-radius: 10px;
@@ -82,11 +81,11 @@ main{
     color: #ffffff;
 }
 
-#viola{
+#purple{
     background-color: #ab5de6;
 }
 
-#verde{
+#green{
     background-color: #2CC6AB ;
 }
 
@@ -98,7 +97,7 @@ main{
     background-color: #A3D116;
 }
 
-#arancione{
+#orange{
     background-color: #FF9B00;
 }
 
